@@ -54,7 +54,7 @@ function Registro() {
 
         })
         
-        fetch("", {
+        fetch("http://127.0.0.1:5002", {
           method: "POST",
           headers: { "Content-Type": "application/json" },
           body: lData
